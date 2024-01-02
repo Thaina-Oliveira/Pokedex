@@ -1,0 +1,53 @@
+/* Pokemon Details card */
+.poke-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ol.poke-card li.pokemon-card {
+  height: 300px;
+}
+.detail img.poke-img {
+  max-width: 100%;
+  height: 100px;
+  align-self: flex-end;
+}
+
+.pokemon-details ol.weight-height-details {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 400;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.types-detail {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  /* gap: 5px; */
+}
+
+ol.types-detail li {
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem 0.15rem;
+  font-size: 0.7rem;
+  border-radius: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  width: fit-content;
+  max-width: 100%;
+}
