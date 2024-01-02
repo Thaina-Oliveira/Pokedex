@@ -4,5 +4,5 @@
 > Status: em desenvolvimento⚠️ <br />
 > Projeto realizado utilizado HMTL, CSS, JavaScript e PokeApi.
 
-<img src="/assets/imgs/pokedex-img.jpeg">
+<a><img src="/assets/imgs/pokedex-img.jpeg">https://thaina-oliveira.github.io/Pokedex/<a/>
 
